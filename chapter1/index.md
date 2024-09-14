@@ -224,7 +224,7 @@ In the past you did have to write the `property` keyword for properties, and Edg
 type City {
   # required name: str;            <-- Current syntax
   required property name -> str; # <-- Old syntax
-  # modern name: str;              <-- Current syntax
+  # modern_name: str;              <-- Current syntax
   property modern_name -> str;   # <-- Old syntax
 }
 ```
